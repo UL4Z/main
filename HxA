@@ -1,0 +1,447 @@
+
+
+
+Luazifier = {} 
+setmetatable(Luazifier, {__metatable = "Don' t touch my table P-Pervert!"})
+
+-- Instances:
+Luazifier.ScreenGui1 = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"))
+Luazifier.Frame1 = Instance.new("Frame", Luazifier.ScreenGui1)
+Luazifier.TextButton1 = Instance.new("TextButton", Luazifier.Frame1)
+Luazifier.TextButton2 = Instance.new("TextButton", Luazifier.Frame1)
+Luazifier.TextButton3 = Instance.new("TextButton", Luazifier.Frame1)
+Luazifier.TextLabel1 = Instance.new("TextLabel", Luazifier.Frame1)
+Luazifier.Frame2 = Instance.new("Frame", Luazifier.Frame1)
+Luazifier.TextButton4 = Instance.new("TextButton", Luazifier.Frame1)
+Luazifier.TextBox1 = Instance.new("TextBox", Luazifier.Frame1)
+Luazifier.TextButton5 = Instance.new("TextButton", Luazifier.Frame1)
+
+-- Properties:
+Luazifier.Frame1.Active = false
+Luazifier.Frame1.AnchorPoint = Vector2.new(0, 0)
+Luazifier.Frame1.BackgroundColor3 = Color3.new(1, 1, 1)
+Luazifier.Frame1.BackgroundTransparency = 0
+Luazifier.Frame1.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Luazifier.Frame1.BorderSizePixel = 1
+Luazifier.Frame1.LayoutOrder = 0
+Luazifier.Frame1.Name = "Frame"
+Luazifier.Frame1.Position = UDim2.new(0.07835258543491364, 0, 0.3121319115161896, 0)
+Luazifier.Frame1.Rotation = 0
+Luazifier.Frame1.Selectable = false
+Luazifier.Frame1.Size = UDim2.new(0, 213, 0, 180)
+Luazifier.Frame1.SizeConstraint = Enum.SizeConstraint.RelativeXY
+Luazifier.Frame1.Style = Enum.FrameStyle.Custom
+Luazifier.Frame1.Visible = true
+Luazifier.Frame1.ZIndex = 1
+Luazifier.Frame1.Archivable = true
+Luazifier.Frame1.ClipsDescendants = false
+Luazifier.Frame1.AutoLocalize = true
+
+
+Luazifier.TextButton1.Active = true
+Luazifier.TextButton1.AnchorPoint = Vector2.new(0, 0)
+Luazifier.TextButton1.BackgroundColor3 = Color3.new(1, 1, 1)
+Luazifier.TextButton1.BackgroundTransparency = 0
+Luazifier.TextButton1.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Luazifier.TextButton1.BorderSizePixel = 1
+Luazifier.TextButton1.LayoutOrder = 0
+Luazifier.TextButton1.Modal = false
+Luazifier.TextButton1.Name = "Toggle"
+Luazifier.TextButton1.Position = UDim2.new(0.2637012004852295, 0, 0.07996465265750885, 0)
+Luazifier.TextButton1.Rotation = 0
+Luazifier.TextButton1.Selectable = true
+Luazifier.TextButton1.Selected = false
+Luazifier.TextButton1.Size = UDim2.new(0, 100, 0, 25)
+Luazifier.TextButton1.SizeConstraint = Enum.SizeConstraint.RelativeYY
+Luazifier.TextButton1.Style = Enum.ButtonStyle.Custom
+Luazifier.TextButton1.Visible = true
+Luazifier.TextButton1.ZIndex = 1
+Luazifier.TextButton1.Archivable = true
+Luazifier.TextButton1.ClipsDescendants = false
+Luazifier.TextButton1.AutoLocalize = true
+Luazifier.TextButton1.Font = Enum.Font.SourceSans
+Luazifier.TextButton1.Text = "Toggle AutoFarm"
+Luazifier.TextButton1.TextColor3 = Color3.new(0, 0, 0)
+Luazifier.TextButton1.TextScaled = true
+Luazifier.TextButton1.TextSize = 14
+Luazifier.TextButton1.TextStrokeColor3 = Color3.new(0, 0, 0)
+Luazifier.TextButton1.TextStrokeTransparency = 1
+Luazifier.TextButton1.TextTransparency = 0
+Luazifier.TextButton1.TextTruncate = Enum.TextTruncate.None
+Luazifier.TextButton1.TextWrapped = true
+Luazifier.TextButton1.TextXAlignment = Enum.TextXAlignment.Center
+Luazifier.TextButton1.TextYAlignment = Enum.TextYAlignment.Center
+
+
+Luazifier.TextButton2.Active = true
+Luazifier.TextButton2.AnchorPoint = Vector2.new(0, 0)
+Luazifier.TextButton2.BackgroundColor3 = Color3.new(1, 1, 1)
+Luazifier.TextButton2.BackgroundTransparency = 0
+Luazifier.TextButton2.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Luazifier.TextButton2.BorderSizePixel = 1
+Luazifier.TextButton2.LayoutOrder = 0
+Luazifier.TextButton2.Modal = false
+Luazifier.TextButton2.Name = "Strength"
+Luazifier.TextButton2.Position = UDim2.new(0.18210497498512268, 0, 0.27707165479660034, 0)
+Luazifier.TextButton2.Rotation = 0
+Luazifier.TextButton2.Selectable = true
+Luazifier.TextButton2.Selected = false
+Luazifier.TextButton2.Size = UDim2.new(0, 75, 0, 20)
+Luazifier.TextButton2.SizeConstraint = Enum.SizeConstraint.RelativeYY
+Luazifier.TextButton2.Style = Enum.ButtonStyle.Custom
+Luazifier.TextButton2.Visible = true
+Luazifier.TextButton2.ZIndex = 1
+Luazifier.TextButton2.Archivable = true
+Luazifier.TextButton2.ClipsDescendants = false
+Luazifier.TextButton2.AutoLocalize = true
+Luazifier.TextButton2.Font = Enum.Font.SourceSans
+Luazifier.TextButton2.Text = "Strength"
+Luazifier.TextButton2.TextColor3 = Color3.new(0, 0, 0)
+Luazifier.TextButton2.TextScaled = true
+Luazifier.TextButton2.TextSize = 14
+Luazifier.TextButton2.TextStrokeColor3 = Color3.new(0, 0, 0)
+Luazifier.TextButton2.TextStrokeTransparency = 1
+Luazifier.TextButton2.TextTransparency = 0
+Luazifier.TextButton2.TextTruncate = Enum.TextTruncate.None
+Luazifier.TextButton2.TextWrapped = true
+Luazifier.TextButton2.TextXAlignment = Enum.TextXAlignment.Center
+Luazifier.TextButton2.TextYAlignment = Enum.TextYAlignment.Center
+
+
+Luazifier.TextButton3.Active = true
+Luazifier.TextButton3.AnchorPoint = Vector2.new(0, 0)
+Luazifier.TextButton3.BackgroundColor3 = Color3.new(1, 1, 1)
+Luazifier.TextButton3.BackgroundTransparency = 0
+Luazifier.TextButton3.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Luazifier.TextButton3.BorderSizePixel = 1
+Luazifier.TextButton3.LayoutOrder = 0
+Luazifier.TextButton3.Modal = false
+Luazifier.TextButton3.Name = "Stamina"
+Luazifier.TextButton3.Position = UDim2.new(0.18210497498512268, 0, 0.38697952032089233, 0)
+Luazifier.TextButton3.Rotation = 0
+Luazifier.TextButton3.Selectable = true
+Luazifier.TextButton3.Selected = false
+Luazifier.TextButton3.Size = UDim2.new(0, 75, 0, 20)
+Luazifier.TextButton3.SizeConstraint = Enum.SizeConstraint.RelativeYY
+Luazifier.TextButton3.Style = Enum.ButtonStyle.Custom
+Luazifier.TextButton3.Visible = true
+Luazifier.TextButton3.ZIndex = 1
+Luazifier.TextButton3.Archivable = true
+Luazifier.TextButton3.ClipsDescendants = false
+Luazifier.TextButton3.AutoLocalize = true
+Luazifier.TextButton3.Font = Enum.Font.SourceSans
+Luazifier.TextButton3.Text = "Stamina"
+Luazifier.TextButton3.TextColor3 = Color3.new(0, 0, 0)
+Luazifier.TextButton3.TextScaled = true
+Luazifier.TextButton3.TextSize = 14
+Luazifier.TextButton3.TextStrokeColor3 = Color3.new(0, 0, 0)
+Luazifier.TextButton3.TextStrokeTransparency = 1
+Luazifier.TextButton3.TextTransparency = 0
+Luazifier.TextButton3.TextTruncate = Enum.TextTruncate.None
+Luazifier.TextButton3.TextWrapped = true
+Luazifier.TextButton3.TextXAlignment = Enum.TextXAlignment.Center
+Luazifier.TextButton3.TextYAlignment = Enum.TextYAlignment.Center
+
+
+Luazifier.TextLabel1.Active = false
+Luazifier.TextLabel1.AnchorPoint = Vector2.new(0, 0)
+Luazifier.TextLabel1.BackgroundColor3 = Color3.new(1, 1, 1)
+Luazifier.TextLabel1.BackgroundTransparency = 0
+Luazifier.TextLabel1.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Luazifier.TextLabel1.BorderSizePixel = 1
+Luazifier.TextLabel1.LayoutOrder = 0
+Luazifier.TextLabel1.Name = "Type"
+Luazifier.TextLabel1.Position = UDim2.new(0.12300468981266022, 0, 0.7986174821853638, 0)
+Luazifier.TextLabel1.Rotation = 0
+Luazifier.TextLabel1.Selectable = false
+Luazifier.TextLabel1.Size = UDim2.new(0, 100, 0, 20)
+Luazifier.TextLabel1.SizeConstraint = Enum.SizeConstraint.RelativeXY
+Luazifier.TextLabel1.Visible = true
+Luazifier.TextLabel1.ZIndex = 1
+Luazifier.TextLabel1.Archivable = true
+Luazifier.TextLabel1.ClipsDescendants = false
+Luazifier.TextLabel1.AutoLocalize = true
+Luazifier.TextLabel1.Font = Enum.Font.SourceSans
+Luazifier.TextLabel1.Text = "Strength"
+Luazifier.TextLabel1.TextColor3 = Color3.new(0, 0, 0)
+Luazifier.TextLabel1.TextScaled = false
+Luazifier.TextLabel1.TextSize = 14
+Luazifier.TextLabel1.TextStrokeColor3 = Color3.new(0, 0, 0)
+Luazifier.TextLabel1.TextStrokeTransparency = 1
+Luazifier.TextLabel1.TextTransparency = 0
+Luazifier.TextLabel1.TextTruncate = Enum.TextTruncate.None
+Luazifier.TextLabel1.TextWrapped = false
+Luazifier.TextLabel1.TextXAlignment = Enum.TextXAlignment.Center
+Luazifier.TextLabel1.TextYAlignment = Enum.TextYAlignment.Center
+
+
+Luazifier.Frame2.Active = false
+Luazifier.Frame2.AnchorPoint = Vector2.new(0, 0)
+Luazifier.Frame2.BackgroundColor3 = Color3.new(1, 0, 0)
+Luazifier.Frame2.BackgroundTransparency = 0
+Luazifier.Frame2.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Luazifier.Frame2.BorderSizePixel = 1
+Luazifier.Frame2.LayoutOrder = 0
+Luazifier.Frame2.Name = "Visual"
+Luazifier.Frame2.Position = UDim2.new(0.8266666531562805, 0, 0.8011776804924011, 0)
+Luazifier.Frame2.Rotation = 0
+Luazifier.Frame2.Selectable = false
+Luazifier.Frame2.Size = UDim2.new(0, 20, 0, 20)
+Luazifier.Frame2.SizeConstraint = Enum.SizeConstraint.RelativeXY
+Luazifier.Frame2.Style = Enum.FrameStyle.Custom
+Luazifier.Frame2.Visible = true
+Luazifier.Frame2.ZIndex = 1
+Luazifier.Frame2.Archivable = true
+Luazifier.Frame2.ClipsDescendants = false
+Luazifier.Frame2.AutoLocalize = true
+
+
+Luazifier.TextButton4.Active = true
+Luazifier.TextButton4.AnchorPoint = Vector2.new(0, 0)
+Luazifier.TextButton4.BackgroundColor3 = Color3.new(1, 1, 1)
+Luazifier.TextButton4.BackgroundTransparency = 0
+Luazifier.TextButton4.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Luazifier.TextButton4.BorderSizePixel = 1
+Luazifier.TextButton4.LayoutOrder = 0
+Luazifier.TextButton4.Modal = false
+Luazifier.TextButton4.Name = "Run"
+Luazifier.TextButton4.Position = UDim2.new(0.18210497498512268, 0, 0.49535122513771057, 0)
+Luazifier.TextButton4.Rotation = 0
+Luazifier.TextButton4.Selectable = true
+Luazifier.TextButton4.Selected = false
+Luazifier.TextButton4.Size = UDim2.new(0, 75, 0, 20)
+Luazifier.TextButton4.SizeConstraint = Enum.SizeConstraint.RelativeYY
+Luazifier.TextButton4.Style = Enum.ButtonStyle.Custom
+Luazifier.TextButton4.Visible = true
+Luazifier.TextButton4.ZIndex = 1
+Luazifier.TextButton4.Archivable = true
+Luazifier.TextButton4.ClipsDescendants = false
+Luazifier.TextButton4.AutoLocalize = true
+Luazifier.TextButton4.Font = Enum.Font.SourceSans
+Luazifier.TextButton4.Text = "Run"
+Luazifier.TextButton4.TextColor3 = Color3.new(0, 0, 0)
+Luazifier.TextButton4.TextScaled = true
+Luazifier.TextButton4.TextSize = 14
+Luazifier.TextButton4.TextStrokeColor3 = Color3.new(0, 0, 0)
+Luazifier.TextButton4.TextStrokeTransparency = 1
+Luazifier.TextButton4.TextTransparency = 0
+Luazifier.TextButton4.TextTruncate = Enum.TextTruncate.None
+Luazifier.TextButton4.TextWrapped = true
+Luazifier.TextButton4.TextXAlignment = Enum.TextXAlignment.Center
+Luazifier.TextButton4.TextYAlignment = Enum.TextYAlignment.Center
+
+
+Luazifier.TextBox1.Active = true
+Luazifier.TextBox1.AnchorPoint = Vector2.new(0, 0)
+Luazifier.TextBox1.BackgroundColor3 = Color3.new(1, 1, 1)
+Luazifier.TextBox1.BackgroundTransparency = 0
+Luazifier.TextBox1.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Luazifier.TextBox1.BorderSizePixel = 1
+Luazifier.TextBox1.ClearTextOnFocus = true
+Luazifier.TextBox1.CursorPosition = -1
+Luazifier.TextBox1.LayoutOrder = 0
+Luazifier.TextBox1.MultiLine = false
+Luazifier.TextBox1.Name = "NenKey"
+Luazifier.TextBox1.Position = UDim2.new(0.5915493369102478, 0, 0.42580646276474, 0)
+Luazifier.TextBox1.Rotation = 0
+Luazifier.TextBox1.Selectable = true
+Luazifier.TextBox1.ShowNativeInput = true
+Luazifier.TextBox1.Size = UDim2.new(0, 75, 0, 20)
+Luazifier.TextBox1.SizeConstraint = Enum.SizeConstraint.RelativeXY
+Luazifier.TextBox1.Visible = true
+Luazifier.TextBox1.ZIndex = 1
+Luazifier.TextBox1.Archivable = true
+Luazifier.TextBox1.ClipsDescendants = false
+Luazifier.TextBox1.AutoLocalize = true
+Luazifier.TextBox1.Font = Enum.Font.SourceSans
+Luazifier.TextBox1.LineHeight = 1
+Luazifier.TextBox1.PlaceholderText = "Nen Key train"
+Luazifier.TextBox1.Text = "N"
+Luazifier.TextBox1.TextColor3 = Color3.new(0, 0, 0)
+Luazifier.TextBox1.TextScaled = false
+Luazifier.TextBox1.TextSize = 14
+Luazifier.TextBox1.TextStrokeTransparency = 1
+Luazifier.TextBox1.TextTransparency = 0
+Luazifier.TextBox1.TextTruncate = Enum.TextTruncate.None
+Luazifier.TextBox1.TextWrapped = false
+Luazifier.TextBox1.TextXAlignment = Enum.TextXAlignment.Center
+Luazifier.TextBox1.TextYAlignment = Enum.TextYAlignment.Center
+
+
+Luazifier.TextButton5.Active = true
+Luazifier.TextButton5.AnchorPoint = Vector2.new(0, 0)
+Luazifier.TextButton5.BackgroundColor3 = Color3.new(1, 1, 1)
+Luazifier.TextButton5.BackgroundTransparency = 0
+Luazifier.TextButton5.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Luazifier.TextButton5.BorderSizePixel = 1
+Luazifier.TextButton5.LayoutOrder = 0
+Luazifier.TextButton5.Modal = false
+Luazifier.TextButton5.Name = "Meditate"
+Luazifier.TextButton5.Position = UDim2.new(0.18210497498512268, 0, 0.6064623594284058, 0)
+Luazifier.TextButton5.Rotation = 0
+Luazifier.TextButton5.Selectable = true
+Luazifier.TextButton5.Selected = false
+Luazifier.TextButton5.Size = UDim2.new(0, 75, 0, 20)
+Luazifier.TextButton5.SizeConstraint = Enum.SizeConstraint.RelativeYY
+Luazifier.TextButton5.Style = Enum.ButtonStyle.Custom
+Luazifier.TextButton5.Visible = true
+Luazifier.TextButton5.ZIndex = 1
+Luazifier.TextButton5.Archivable = true
+Luazifier.TextButton5.ClipsDescendants = false
+Luazifier.TextButton5.AutoLocalize = true
+Luazifier.TextButton5.Font = Enum.Font.SourceSans
+Luazifier.TextButton5.Text = "Meditate"
+Luazifier.TextButton5.TextColor3 = Color3.new(0, 0, 0)
+Luazifier.TextButton5.TextScaled = true
+Luazifier.TextButton5.TextSize = 14
+Luazifier.TextButton5.TextStrokeColor3 = Color3.new(0, 0, 0)
+Luazifier.TextButton5.TextStrokeTransparency = 1
+Luazifier.TextButton5.TextTransparency = 0
+Luazifier.TextButton5.TextTruncate = Enum.TextTruncate.None
+Luazifier.TextButton5.TextWrapped = true
+Luazifier.TextButton5.TextXAlignment = Enum.TextXAlignment.Center
+Luazifier.TextButton5.TextYAlignment = Enum.TextYAlignment.Center
+
+local Type = "Strength";
+local NenKey = "N";
+
+Luazifier.TextButton2.Activated:Connect(function()
+	Type = Luazifier.TextButton2.Text;
+	Luazifier.TextLabel1.Text = Type;
+end)
+
+Luazifier.TextButton3.Activated:Connect(function()
+	Type = Luazifier.TextButton3.Text;
+	Luazifier.TextLabel1.Text = Type;
+end)
+
+Luazifier.TextBox1.Changed:Connect(function()
+	NenKey = Luazifier.TextBox1.Text;
+end)
+
+Luazifier.TextButton4.Activated:Connect(function()
+	Type = Luazifier.TextButton4.Text;
+	Luazifier.TextLabel1.Text = Type;
+end)
+
+Luazifier.TextButton5.Activated:Connect(function()
+	Type = Luazifier.TextButton5.Text;
+	Luazifier.TextLabel1.Text = Type;
+end)
+
+local bool = false
+Luazifier.TextButton1.Activated:Connect(function()
+	if bool then
+		bool = false;
+		Luazifier.Frame2.BackgroundColor3 = Color3.new(1, 0, 0);
+	else
+		bool = true;
+		Luazifier.Frame2.BackgroundColor3 = Color3.new(0, 1, 0);
+	end
+end)
+
+
+local player = game:GetService("Players").LocalPlayer;
+local remote = player.Character.Character["input"];
+local stam = player.Character.Humanoid.Info.Stamina;
+local nen = player.Character.Humanoid.Info.NenStam;
+
+function Meditate(val)
+	if bool then
+		if val then wait(val)end
+		Nen(2);
+		remote:FireServer("M");
+		Hunger();
+		repeat wait() until stam.Value == 100 or bool == false
+		if bool then
+			remote:FireServer("M");
+			wait(0.5);
+			Nen();
+		end
+	end
+end		
+
+function Nen(val)
+    if nen.Value == 100 and NenKey ~= "" then
+        remote:FireServer(NenKey);
+        if val then wait(val) end
+    end
+end
+
+function Hunger()
+    if player.PlayerGui.CoreGUI.Images.Hunger.Size.X.Scale < 0.5 then
+        local tool
+        if player.Backpack:FindFirstChild("Meat") then
+            tool = player.Backpack.Meat;
+        elseif player.Backpack:FindFirstChild("Apple") then
+            tool = player.Backpack.Apple;
+        end
+        if tool then
+            player.Character.Humanoid:EquipTool(tool);
+            tool:Activate();
+            wait(0.5)
+        end
+    end
+end
+
+function Main()
+    while true do
+        if bool == true then
+        	if Type == "Strength" then
+    			remote:FireServer("J");
+    			repeat wait() until player.PlayerGui:FindFirstChild("PushupsGui")
+    			repeat wait() until	player.PlayerGui.PushupsGui.Pushups.BackgroundColor3 == Color3.new(0,0,0) or not player.PlayerGui:FindFirstChild("PushupsGui")
+    			while player.PlayerGui:FindFirstChild("PushupsGui") and bool do
+    			    local key = player.PlayerGui.PushupsGui.Pushups.Button.Text
+    				player.PlayerGui.PushupsGui.Pushups.RemoteEvent:FireServer();
+    				repeat wait() until not player.PlayerGui:FindFirstChild("PushupsGui") or player.PlayerGui.PushupsGui.Pushups.Button.Text ~= key
+    				repeat wait() until not player.PlayerGui:FindFirstChild("PushupsGui") or player.PlayerGui.PushupsGui.Pushups.BackgroundColor3 == Color3.new(0,0,0)
+    			end
+    			if not bool then
+    				remote:FireServer("J");
+    			end
+    			Meditate()
+    		elseif Type == "Stamina" then
+    			remote:FireServer("ClimbStart");
+    			repeat wait() until stam.Value == 0 or bool == false
+    			if not bool then
+    				remote:FireServer("ClimbEnd");
+    			end
+    			Meditate(1)
+    		elseif Type == "Run" then
+    			remote:FireServer("FastSprintStart");
+    			repeat wait() until stam.Value == 0 or bool == false
+    			if not bool then
+    				remote:FireServer("FastSprintEnd");
+    			end
+    			Meditate()
+    		elseif Type == "Meditate" then
+    		    if NenKey ~= "" then
+        		        Nen(2);
+        		        remote:FireServer("M");
+        		        Hunger();
+        		        while bool do
+        		            if nen.Value == 100 then
+                		        remote:FireServer("M");
+                		        Nen(2);
+                		        remote:FireServer("M");
+                		        Hunger();
+                		    else
+                		        wait();
+                		    end
+            		    end
+        	    else
+        	        remote:FireServer("M");
+        		    while bool do
+        		        Hunger();
+        		        wait();
+    		        end
+    		    end
+    		end
+        else
+            wait();
+        end
+    end
+end
+
+Main();
